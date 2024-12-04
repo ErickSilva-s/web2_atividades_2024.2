@@ -15,6 +15,10 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div>
+                        <a  href="{{ route('categories.index') }}" >Ver categorias</a>
+                    </div>
                 </div>
             </div>
         </div>

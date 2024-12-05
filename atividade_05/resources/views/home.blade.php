@@ -17,7 +17,10 @@
                     {{ __('You are logged in!') }}
 
                     <div>
-                        <a  href="{{ route('categories.index') }}" >Ver categorias</a>
+                        <a  href="{{ route('categories.index') }}" >Categorias</a>
+                    </div>
+                    <div>
+                        <a  href="{{ route('books.index') }}" >Livros</a>
                     </div>
                 </div>
             </div>

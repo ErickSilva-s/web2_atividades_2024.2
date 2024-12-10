@@ -9,21 +9,27 @@
 
                 <div class="card-body">
                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
+                    <div class="alert alert-success" role="alert">
+                        {{ session('status') }}
+                    </div>
                     @endif
 
                     {{ __('You are logged in!') }}
 
                     <div>
-                        <a  href="{{ route('categories.index') }}" >Categorias</a>
+                        <a href="{{ route('categories.index') }}">Categorias</a>
                     </div>
                     <div>
-                        <a  href="{{ route('books.index') }}" >Livros</a>
+                        <a href="{{ route('books.index') }}">Livros</a>
                     </div>
                     <div>
-                        <a  href="{{ route('users.index') }}" >Usuários</a>
+                        <a href="{{ route('users.index') }}">Usuários</a>
+                    </div>
+                    <div>
+                        <a href="{{ route('authors.index') }}">Autores</a>
+                    </div>
+                    <div>
+                        <a href="{{ route('publishers.index') }}">Editoras</a>
                     </div>
                 </div>
             </div>
